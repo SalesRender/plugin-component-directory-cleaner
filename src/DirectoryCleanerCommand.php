@@ -5,7 +5,7 @@
  * @author Timur Kasumov aka XAKEPEHOK
  */
 
-namespace Leadvertex\Plugin\Components\DirectoryCleaner;
+namespace SalesRender\Plugin\Components\DirectoryCleaner;
 
 
 use RecursiveDirectoryIterator;

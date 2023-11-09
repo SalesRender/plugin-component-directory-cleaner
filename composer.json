@@ -1,18 +1,18 @@
 {
-  "name": "leadvertex/plugin-component-directory-cleaner",
-  "description": "LeadVertex plugin directory cleaner command",
+  "name": "salesrender/plugin-component-directory-cleaner",
+  "description": "SalesRender plugin directory cleaner command",
   "type": "library",
   "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
     {
       "name": "Timur Kasumov aka XAKEPEHOK",
-      "email": "support@leadvertex.com"
+      "email": "support@salesrender.com"
     }
   ],
   "autoload": {
     "psr-4": {
-      "Leadvertex\\Plugin\\Components\\DirectoryCleaner\\": "src/"
+      "SalesRender\\Plugin\\Components\\DirectoryCleaner\\": "src/"
     }
   },
   "require": {

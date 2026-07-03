@@ -18,7 +18,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 class DirectoryCleanerCommand extends Command
 {
 
-    protected function configure()
+    protected function configure(): void
     {
         $this
             ->setName('cleaner:run')
@@ -28,7 +28,7 @@ class DirectoryCleanerCommand extends Command
         ;
     }
 
-    protected function execute(InputInterface $input, OutputInterface $output)
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $this->cleanUp(
             $input->getArgument('directory'),
